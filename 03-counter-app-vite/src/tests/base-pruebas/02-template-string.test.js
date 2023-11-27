@@ -8,7 +8,7 @@ describe('Pruebas en 02-template-string', () => {
         const name = 'Christina';
         const message = getSaludo( name );
 
-        expect( message ).toBe(`Hola ${ name }wp`)
+        expect( message ).toBe(`Hola ${ name }`)
 
     });
 
