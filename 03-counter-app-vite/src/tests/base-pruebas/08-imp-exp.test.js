@@ -2,7 +2,7 @@ import { getHeroeById, getHeroesByOwner } from "../../base-pruebas/08-imp-exp";
 
 describe('Pruebas en 08-imp-exp', () => {
     
-    test('getHeroeByIde debe retornar un héroe por ID', () => {
+    test('getHeroeById debe retornar un héroe por ID', () => {
         
         const id = 1;
         const hero = getHeroeById( id );
