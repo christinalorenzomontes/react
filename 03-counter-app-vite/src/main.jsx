@@ -8,6 +8,6 @@ import './styles.css'
 ReactDOM.createRoot( document.getElementById('root') ).render(
     <React.StrictMode>
         {/* <CounterApp value={ 3 } /> */}
-        <FirstApp />
+        <FirstApp title="Hola, soy Sailor Moon" />
     </React.StrictMode>
 );
