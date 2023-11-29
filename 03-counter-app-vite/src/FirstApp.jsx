@@ -1,13 +1,5 @@
 import PropTypes from 'prop-types';
 
-// const newMessage = {
-//     message: 'Czesc',
-//     title: 'Jestem gotowa'
-// }
-// const sumF = () => {
-//     return ( 1+1 );
-// }
-
 export const FirstApp = ({ title, subtitle, name }) => {
 
     return (<>
