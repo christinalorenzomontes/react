@@ -24,7 +24,7 @@ describe('Pruebas en <FirstApp2 />', () => {
     test('Debe mostrar el subtítulo enviado por props', () => {
         const { getAllByText } = render( 
             <FirstApp
-                title={ title} 
+                title={ title } 
                 subtitle={ subtitle }    
             />
         );
